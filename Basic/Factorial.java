@@ -9,9 +9,7 @@ public class Factorial {
         for (int i = 1; i <= factorial; i++){
             answer = answer * i;
         }
-            for(int j = factorial; j >= 1; j--){
-                System.out.print(j + " * ");
-            }
-        System.out.print(" = " + answer);
+        System.out.print("The factorial of " + factorial + " is: ")
+        System.out.print(answer);
     }
 }
