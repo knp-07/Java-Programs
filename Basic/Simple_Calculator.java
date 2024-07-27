@@ -1,6 +1,4 @@
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 public class Simple_Calculator {
     public static void main(String[] args){
