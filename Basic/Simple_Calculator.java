@@ -4,6 +4,8 @@ public class Simple_Calculator {
     public static void main(String[] args){
         //Simple Calculator using switch statements;
         String yn;
+
+        //Thought of using a do-while loop so as to not re-run the program again and again, that would be insanity :)
         do {
             Scanner sc = new Scanner(System.in);
             System.out.print("Enter the first number: ");
@@ -36,6 +38,7 @@ public class Simple_Calculator {
 
             }
             System.out.println("Do you want to continue? Type in Yes or No");
+            //converting to uppercase so as to not make it case sensitive.
             yn = sc.next().toUpperCase();
 
         }while (yn.equals("YES"));
