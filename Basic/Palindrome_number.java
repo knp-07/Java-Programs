@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Palindrome_number {
     public static void main(String[] args){
+
+        //A palindrome number is a number that remains the same even when the numberis reversed( eg. - 69 - 96 not palindrome , 141 - 141 is a palindrome)
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int number = sc.nextInt();
